@@ -1,8 +1,8 @@
-Treasure Island Environment
+# Treasure Island Environment
 
 This project provides a custom reinforcement learning environment designed to evaluate and compare fundamental RL algorithms in a simple yet instructive setup.
 
- Environment Description
+# Environment Description
 
 The environment is a 5×5 grid world called Treasure Island.
 
@@ -18,7 +18,7 @@ The agent can move in four directions: up, down, left, and right.
 
 The environment is implemented in Python as the class GridWorldEnv, including methods for reset(), step(), get_state(), and render().
 
- Algorithms Implemented
+# Algorithms Implemented
 
 The environment has been used to test and compare the following reinforcement learning algorithms:
 
@@ -32,7 +32,7 @@ Q-Learning
 
 SARSA
 
- Project Goal
+# Project Goal
 
 Compare learning speed, cumulative rewards, and execution time of RL algorithms under identical conditions.
 
